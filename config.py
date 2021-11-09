@@ -22,6 +22,6 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/bf3d5334efaa345955275.jpg")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-IMG_1 = https://raw.githubusercontent.com/BROKENCOBRA/legend-alonemusc/main/etc/foreground.png
+IMG_1 = getenv ("IMG_1", "https://raw.githubusercontent.com/BROKENCOBRA/legend-alonemusc/main/etc/foreground.png")
 IMG_2 = getenv("IMG_2", "https://telegra.ph/file/bf3d5334efaa345955275.jpg")
 IMG_3 = getenv("IMG_3", "https://telegra.ph/file/bf3d5334efaa345955275.jpg")
