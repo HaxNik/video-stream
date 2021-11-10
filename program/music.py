@@ -56,6 +56,7 @@ async def play(_, m: Message):
         [
             [
                 InlineKeyboardButton(
+                    text
                     
                 ),
                 InlineKeyboardButton(
