@@ -56,11 +56,11 @@ async def play(_, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text= "🤓" url= f" https://t.me/CCHour"
+                    text= "🤓", url="https://t.me/CCHour"
                     
                 ),
                 InlineKeyboardButton(
-                    text="🌻 ᴄʜɪᴛᴄʜᴀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/CCHour"
+                    text="🌻 ᴄʜɪᴛᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/CCHour"
                 ),
             ]
         ]
