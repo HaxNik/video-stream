@@ -70,7 +70,7 @@ async def start_(client: Client, message: Message):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/Xmartperson"),
+                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/nixstream"),
                 ],
                 [
                     InlineKeyboardButton(
